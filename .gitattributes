@@ -1,0 +1,2 @@
+# Evitar la conversión automática de caracteres de nueva línea en Windows
+*.json text eol=lf
