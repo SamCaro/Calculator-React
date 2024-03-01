@@ -22,9 +22,7 @@ export function Button(props) {
                 { props.children }
             </button>
         )
-    }
-
-  
+    } 
     
 }
 
