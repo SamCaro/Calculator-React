@@ -1,22 +1,22 @@
 .button-container {
-    height: 83px;
+    height: 100px;
+    width: 200px;
     display: flex;
     flex: 1 1;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
+    font-weight: 100;
     font-size: 38px;
-    background-color: rgb(127, 144, 148);
+    background: rgb(0, 0, 0);
     color: white;
-    border-radius: 25px;
-    border: 2px solid white;
     margin: 4px;
     cursor: pointer;
     user-select: none;
+    border-color: rgba(104, 182, 30, 0.089);
 }
 
 .button-container:hover {
-    background-color: #026468;
+    background-color: #c0f1f3;
 }
 
 .operator {
@@ -24,5 +24,9 @@
 }
 
 .operator:hover {
-    background-color: rgb(196, 240, 4);
+    background-color: rgb(238, 255, 151);
 }
+
+
+/* 
+box-shadow: 1px 1px 1px rgb(0, 0, 0); */
