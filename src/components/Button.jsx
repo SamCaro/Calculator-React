@@ -1,4 +1,3 @@
-import '../sheetstyle/Button.css'
 
 export function Button(props) {
 
@@ -9,15 +8,17 @@ export function Button(props) {
     if(esOperador(props.children)) {
         return (
             <button 
-            className='button-container operator' 
-                onClick={ () => props.handleClic(props.children) }>
+                onClick={ () => props.handleClic(props.children) }
+                >
+                
                 { props.children }
+            
             </button>
         )
     } else {
         return (
             <button 
-            className='button-container' 
+            className='absolute -rotate-45' 
                 onClick={ () => props.handleClic(props.children) }>
                 { props.children }
             </button>
